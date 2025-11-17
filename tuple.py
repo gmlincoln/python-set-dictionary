@@ -80,6 +80,26 @@ students = [
 ]
 
 # print(type(students[2]))
-print(students[3][0])
-print(students[3][1])
+# print(students[3][0])
+# print(students[3][1])
 
+
+
+#Modify the tuple value using index numbe
+
+"""
+
+num = (10, 20, 30, 40, 50)
+# print(type(num))
+
+
+numList = list(num)
+# print(type(numList))
+
+numList[3] = 60
+print(numList)
+
+num = tuple(numList)
+print(num)
+
+"""
