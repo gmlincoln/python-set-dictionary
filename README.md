@@ -128,11 +128,11 @@ print(a)     # 10
 print(b)     # 20
 print(rest)  # [30, 40, 50]
 
+```
 
 
 
-
-### 📍 7. Tuple vs List (Quick Comparison) 
+###  📍 7. Tuple vs List (Quick Comparison) 
 
 | Feature    | Tuple      | List         |
 | ---------- | ---------- | ------------ |
@@ -266,7 +266,8 @@ print(fruits)
 ### 📍 4. Set Methods
 
 ####
-```python
+
+
 | Method                   | Description                                  |
 | ------------------------ | -------------------------------------------- |
 | `add()`                  | Add single item                              |
@@ -281,7 +282,7 @@ print(fruits)
 | `symmetric_difference()` | Items in one set or other but not both       |
 | `copy()`                 | Returns a copy of the set                    |
 
-```
+
 ##### ✔ Examples
 ```python
 a = {1, 2, 3}
