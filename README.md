@@ -375,3 +375,130 @@ student = {
     "city": "Dhaka"
 }
 ```
+
+
+### 📍 1. Creating Dictionaries
+#### ✔ Basic dictionary
+```python
+person = {
+    "name": "John",
+    "age": 30
+}
+
+```
+
+#### ✔ Using dict() constructor
+```python
+person = dict(name="John", age=30)
+```
+
+
+#### ✔ Empty dictionary
+```python
+empty_dict = {}
+```
+### 📍 2. Accessing and Updating Values
+#### ✔ Access using key
+
+```python
+
+student = {
+    "name": "Karina", 
+    "dept": "CSE"
+}
+print(student["name"])  # Karina
+
+```
+
+#### ✔ Using get() (avoids KeyError)
+
+```python
+print(student.get("dept"))       # CSE
+print(student.get("CGPA", "N/A")) # N/A (default value)
+
+```
+
+#### ✔ Add or update value
+
+```python
+student["cgpa"] = 3.92
+student["name"] = "Tamim"
+
+```
+### 📍 3. Removing Items
+####
+```python
+student = {
+    "name": "Shuvo",
+    "age": 22, 
+    "city": "Dhaka"
+    }
+
+
+```
+
+
+
+####  ✔ pop()
+```python
+
+student.pop("age")  # removes age key
+
+```
+#### ✔ popitem() – removes last item
+```python
+student.popitem()
+
+
+```
+#### ✔ clear()
+```python
+ student.clear()
+
+```
+
+
+### 📍 4. Looping Through Dictionary
+#### ✔ Loop keys
+```python
+for key in student:
+    print(key)
+
+```
+
+
+#### ✔ Loop values
+```python
+for value in student.values():
+    print(value)
+
+
+```
+#### ✔ Loop both key and value
+```python
+for key, value in student.items():
+    print(key, value)
+
+```
+
+### 📍 5. Dictionary Methods
+
+| Method         | Description                                            |
+| -------------- | ------------------------------------------------------ |
+| `get()`        | Returns value for key or default                       |
+| `keys()`       | Returns all keys                                       |
+| `values()`     | Returns all values                                     |
+| `items()`      | Returns key–value pairs                                |
+| `update()`     | Updates dictionary                                     |
+| `pop()`        | Removes item by key                                    |
+| `popitem()`    | Removes last inserted item                             |
+| `clear()`      | Removes all items                                      |
+| `copy()`       | Returns a shallow copy                                 |
+| `setdefault()` | Returns value; if key not found, adds key with default |
+
+
+####
+```python
+
+
+```
