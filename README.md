@@ -497,8 +497,86 @@ for key, value in student.items():
 | `setdefault()` | Returns value; if key not found, adds key with default |
 
 
+### 📍 6. Nested Dictionaries
+
+####
+```python
+students = {
+    "student1": {
+        "name": "Tamim",
+         "age": 22
+         },
+    "student2": {
+        "name": "Nargis",
+         "age": 23
+    },
+    "student3": {
+        "name": "Shuvo",
+         "age": 25
+    },
+    "student4": {
+        "name": "Fairooz",
+         "age": 21
+    },
+    print(students["student1"]["name"])
+
+}
+```
+### 📍 7. Dictionary Use Cases
+#####  Output
+```bash
+    #Tamim
+```
+### 📍 7. Dictionary Use Cases
+#### ✔ 1. Storing real-world structured data
+
+```python
+user = {
+    "id": 101,
+    "name": "soikot",
+    "email": "soikot@example.com"
+}
+
+
+```
+#### 2. Using as a pseudo-database
+```python
+products = {
+    101: {"name": "Laptop", "price": 50000},
+    102: {"name": "Phone", "price": 20000}
+}
+
+```
 ####
 ```python
 
 
 ```
+####
+```python
+
+
+```
+####
+```python
+
+
+```
+
+### 📍 8. Practice Questions
+#### ✔ Basic
+- Create a dictionary of 5 students with name and age.  
+- Print all keys and values using loops.  
+- Change the value of any key.
+
+#### ✔ Intermediate
+- Use update() to add multiple new fields.  
+- Remove 2 items using pop() and del. 
+- Create a nested dictionary and access nested values.
+
+#### ✔ Advanced
+- Count character frequency using a dictionary.  
+- Convert two lists into a dictionary:  
+-- Keys → Names  
+-- Values → Marks  
+- Write a program that stores employee details and retrieves them by user input ID.
